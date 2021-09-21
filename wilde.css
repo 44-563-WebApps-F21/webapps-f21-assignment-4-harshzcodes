@@ -1,0 +1,39 @@
+body
+{
+    background-color: MistyRose;
+}
+#speech
+{
+color: black;
+font-size: small;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#stageDirection
+{
+color: bisque;
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name
+{
+color: black;
+font-size: medium;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hover
+{
+    background-color: Peru;
+    color: RosyBrown;
+}
+.LordGoring
+{
+color:SaddleBrown ;
+}
+.LordCaversham
+{
+color: SandyBrown;
+}
+.Phipps
+{
+color: Goldenrod;
+}
