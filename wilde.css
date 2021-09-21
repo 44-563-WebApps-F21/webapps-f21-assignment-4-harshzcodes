@@ -1,20 +1,20 @@
 body
 {
-    background-color: MistyRose;
+    background-color: Cornsilk;
 }
-#speech
+.speech
 {
 color: black;
 font-size: small;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#stageDirection
+.stageDirection
 {
-color: bisque;
-font-size: large;
+color: BurlyWood;
+font-size: medium;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#name
+.name
 {
 color: black;
 font-size: medium;
@@ -36,4 +36,38 @@ color: SandyBrown;
 .Phipps
 {
 color: Goldenrod;
+}
+
+#tableStyle
+{
+    width: 50%;
+    border: 1px solid maroon;
+    color:Brown;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#tableStyle tr:nth-child(even)
+{
+    background-color: NavajoWhite;
+}
+#tableStyle tr:nth-child(odd)
+{
+    background-color: wheat;
+}
+#tableStyle th
+{
+    border: 1px solid black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: DarkRed;
+    color: white;
+}
+#tableStyle td
+{
+    padding: 3px;
+    border: 1px solid maroon;
 }
