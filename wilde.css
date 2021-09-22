@@ -25,6 +25,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: Peru;
     color: RosyBrown;
 }
+
 .LordGoring
 {
 color:SaddleBrown ;
@@ -70,4 +71,40 @@ color: Goldenrod;
 {
     padding: 3px;
     border: 1px solid maroon;
+}
+
+.LordCaversham:hover
+{
+    border: 1px solid blue;
+    display: inline;
+    color: DarkBlue;
+    text-shadow: 1px 1px 1px DeepSkyBlue;
+}
+
+.LordGoring:hover
+{
+    border: 1px solid blue;
+    display: inline;
+    color: DarkBlue;
+    text-shadow: 1px 1px 1px DeepSkyBlue;
+}
+
+.Phipps:hover
+{
+    border: 1px solid blue;
+    display: inline;
+    color: DarkBlue;
+    text-shadow: 1px 1px 1px DeepSkyBlue;
+}
+
+.speech:hover
+{
+    color: OrangeRed; 
+    text-shadow: 1px 1px 1px Moccasin;
+}
+
+.stageDirection:hover
+{
+    color:  Crimson;
+    text-shadow: 1px 1px 1px  lightsalmon;
 }
