@@ -8,24 +8,18 @@ color: black;
 font-size: small;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.stageDirection
+.stageDirection:hover
 {
-color: BurlyWood;
-font-size: medium;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  Crimson;
+    background-color:aquamarine;
+    text-shadow: 1px 1px 1px  lightsalmon;
 }
 .name
 {
 color: black;
-font-size: medium;
+font-size: x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.hover
-{
-    background-color: Peru;
-    color: RosyBrown;
-}
-
 .LordGoring
 {
 color:SaddleBrown ;
@@ -37,7 +31,7 @@ color: SandyBrown;
 .Phipps
 {
 color: Goldenrod;
-}
+} 
 
 #tableStyle
 {
@@ -47,8 +41,8 @@ color: Goldenrod;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #tableStyle tr:nth-child(even)
@@ -103,16 +97,12 @@ color: Goldenrod;
     text-shadow: 1px 1px 1px Moccasin;
 }
 
-.stageDirection:hover
-{
-    color:  Crimson;
-    text-shadow: 1px 1px 1px  lightsalmon;
-}
+
 
 .navbar ul
 {
     list-style: none;
-
+    text-align: center;
 }
 .navbar ul li:hover
 {
@@ -125,9 +115,15 @@ cursor: pointer;
     list-style-type: none;
     display: block;
     padding-bottom: 20px;
-    float: left;
+    float: right;
+    text-align: center;
 }
 .nav-horizontal i
 {
     padding: 10px;
+}
+
+.image
+{
+    text-align: center;
 }
