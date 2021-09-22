@@ -108,3 +108,26 @@ color: Goldenrod;
     color:  Crimson;
     text-shadow: 1px 1px 1px  lightsalmon;
 }
+
+.navbar ul
+{
+    list-style: none;
+
+}
+.navbar ul li:hover
+{
+cursor: pointer;
+
+}
+
+.nav-horizontal ul li
+{
+    list-style-type: none;
+    display: block;
+    padding-bottom: 20px;
+    float: left;
+}
+.nav-horizontal i
+{
+    padding: 10px;
+}
